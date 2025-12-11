@@ -1,0 +1,36 @@
+# --- SEGURANÇA ---
+# Ignora o arquivo que contém suas senhas e chaves de API
+config.py
+.env
+
+# --- ARQUIVOS DE BUILD (PyInstaller) ---
+# Pastas geradas durante a criação do .exe
+build/
+dist/
+# Arquivo de especificação do PyInstaller (pode ser gerado novamente)
+*.spec
+
+# --- PYTHON ---
+# Bytecodes compilados (arquivos inúteis para o git)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- AMBIENTES VIRTUAIS ---
+# Pastas onde ficam as bibliotecas instaladas (venv, conda, etc)
+venv/
+env/
+.venv/
+
+# --- LOGS E DADOS LOCAIS ---
+# Não queremos subir o histórico de erros ou scrobbles
+*.log
+scrobbler.log
+
+# --- IDE E SISTEMA OPERACIONAL ---
+# Configurações do VS Code
+.vscode/
+# Arquivos de sistema do Windows/Mac
+Thumbs.db
+Desktop.ini
+.DS_Store
