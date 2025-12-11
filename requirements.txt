@@ -1,0 +1,5 @@
+winsdk
+pylast
+pystray
+Pillow
+pyinstaller
